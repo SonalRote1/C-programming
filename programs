@@ -1,0 +1,9 @@
+       .data
+msg:   .asciiz "helloworld"
+       .text
+       .globl main
+main:  li$v0
+       la$a0
+       syscall
+       jr$ra
+       
